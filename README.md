@@ -11,14 +11,14 @@ Features.....
 - **User selection** with hardcoded users
 - **Message history** persistence in MongoDB
 
-Tech Stack....
+**Tech Stack....**
  Frontend
 - React 18 with TypeScript
 - Tailwind CSS for styling
 - Socket.io-client for real-time communication
 - Custom hooks for theme and socket management
 
- Backend.....
+**Backend.....**
 - Node.js with Express.js
 - Socket.io for real-time communication
 - MongoDB with Mongoose ODM
