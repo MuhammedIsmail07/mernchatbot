@@ -37,8 +37,8 @@ Before running this application, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd mern-chat-app
+git clone  https://github.com/Muhammedismail07/mernchatbot.git
+cd mernchatbot
 ```
 
 ### 2. Install Dependencies
