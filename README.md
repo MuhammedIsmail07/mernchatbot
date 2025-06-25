@@ -22,7 +22,6 @@ Features.....
 - Node.js with Express.js
 - Socket.io for real-time communication
 - MongoDB with Mongoose ODM
-- CORS enabled for cross-origin requests
 
 ## Prerequisites
 
@@ -45,9 +44,10 @@ cd mernchatbot
 
 Install both server and client dependencies:
 
-bash
-# Install server dependencies
+```bash
+Install server dependencies
 npm install
+```
 
 # Install client dependencies (automatically runs via postinstall script)
 # Or manually run: npm run install-client
