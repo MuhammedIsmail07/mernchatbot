@@ -43,14 +43,12 @@ cd mernchatbot
 ### 2. Install Dependencies
 
 Install both server and client dependencies:
-
-```bash
 Install server dependencies
+```bash
 npm install
 ```
-
-# Install client dependencies (automatically runs via postinstall script)
-# Or manually run: npm run install-client
+Install client dependencies (automatically runs via postinstall script)
+ Or manually run: npm run install-client
 
 
 ### 3. Environment Configuration
