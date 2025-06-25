@@ -48,8 +48,10 @@ Install server dependencies
 npm install
 ```
 Install client dependencies (automatically runs via postinstall script)
- Or manually run: npm run install-client
-
+ Or manually run:
+ ```bash
+ npm run install-client
+```
 
 ### 3. Environment Configuration
 
