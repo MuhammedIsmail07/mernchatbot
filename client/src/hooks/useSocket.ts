@@ -13,15 +13,15 @@ const useSocket = (currentUserId: string | null, onMessageReceived: (message: Me
 
     const socket = socketRef.current;
 
-    // Join user's room
+  
     socket.emit('join-room', currentUserId);
 
-    // Listen for incoming messages
+   
     socket.on('message', (message: Message) => {
       onMessageReceived(message);
     });
 
-    // Cleanup on unmount
+   
     return () => {
       socket.disconnect();
     };
